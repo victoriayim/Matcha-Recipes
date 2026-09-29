@@ -1,0 +1,98 @@
+body{
+    border : 3px solid #000;
+    margin: 10px;
+    padding: 60px;
+    background-color:  hsl(38, 66%, 94%);
+  }
+
+p{
+    font-family: "minute", sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+.custom-divider {
+    border: none;
+    border-top: 2px dotted hsl(153, 86%, 14%);
+    width: 50%;
+    margin: 2% auto;
+    border-radius: 6px;
+    
+}
+h1{
+    font-family: "apple chancery", cursive;
+    text-align: center;
+    line-height: 60px;
+    color: rgb(2, 70, 19);
+    padding: 20px;
+    font-size: 60px;
+
+}
+h2{
+   color: rgb(173, 38, 103);
+   text-shadow: #5b005e ;
+   font-size: 30px;
+   
+}
+
+section {
+    
+    margin: 30px auto;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+}
+
+
+.flex-container {
+  margin: auto;
+    display: flex;       /* Aligns the children side-by-side */
+           /* Adds space between the columns */
+           
+                
+            }
+
+
+.text-section {
+    margin: 20px auto;
+  flex: .2; 
+          /* Forces both sections to take up equal width */
+}
+
+
+{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 1px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ca6cbf;
+  color: white;
+  text-align: center;
+  text-decoration: none; /* Removes the underline */
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 50px;
+  
+}
+
+.button:hover {
+  background-color: #5b005e; /* Darkens the button on hover */
+}
+

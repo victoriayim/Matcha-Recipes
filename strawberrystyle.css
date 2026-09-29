@@ -1,0 +1,64 @@
+body{
+    border : 3px solid #000;
+    margin: 10px;
+    padding: 60px;
+    background-color:  hsl(38, 66%, 94%);
+  }
+
+p{
+    font-family: "minute", sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+h1{
+    font-family: "apple chancery", cursive;
+    text-align: center;
+    line-height: 60px;
+    color: rgb(2, 70, 19);
+    padding: 20px;
+    font-size: 60px;
+}
+
+h2{
+   color: rgb(173, 38, 103);
+   text-shadow: #5b005e ;
+   font-size: 30px;
+   
+}
+.custom-divider {
+    border: none;
+    border-top: 2px dotted hsl(153, 86%, 14%);
+    width: 90%;
+    margin: 5% auto;
+    border-radius: 6px;
+}
+
+.floated-image {
+  float: right;           /* Pushes image to the left, forcing text to the right */
+  margin-right: 100px;    /* Prevents the text from touching the image edge */
+  margin-bottom: 10px;   /* Pushes text away if it wraps underneath */
+  max-width: 200px;
+  height: auto;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ca6cbf;
+  color: white;
+  text-align: center;
+  text-decoration: none; /* Removes the underline */
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 50px;
+  
+}
+
+.button:hover {
+  background-color: #5b005e; /* Darkens the button on hover */
+}
+
+
